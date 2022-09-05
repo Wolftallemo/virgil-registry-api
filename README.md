@@ -4,4 +4,4 @@ This is the key part of the verification service. It is a separate worker becaus
 
 ## Deploying
 
-Copy `wrangler.toml.example` to `wrangler.toml`, fill out the fields, edit to your liking, and deploy with `npm run build && wrangler publish dist\src.js`
+Copy `wrangler.toml.example` to `wrangler.toml`, fill out the fields, edit to your liking, and deploy with `wrangler publish`

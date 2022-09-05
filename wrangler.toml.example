@@ -1,0 +1,18 @@
+account_id = ""
+compatibility_date = "2022-09-05"
+main = "src/index.ts"
+name = "registry-api"
+routes = [""]
+usage_model = "bundled"
+workers_dev = false
+
+[build]
+  command = "npm run build"
+
+[[kv_namespaces]]
+  binding = "VERIFICATIONS"
+  id = ""
+
+[[kv_namespaces]]
+  binding = "API_KEYS"
+  id = ""

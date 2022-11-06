@@ -5,3 +5,6 @@ This is the key part of the verification service. It is a separate worker becaus
 ## Deploying
 
 Copy `wrangler.toml.example` to `wrangler.toml`, fill out the fields, edit to your liking, and deploy with `wrangler publish`
+
+### NOTICE
+Function exections now share worker limits, therefore these endpoints will be moved to the [website project](https://github.com/Wolftallemo/virgil-registry-website)
